@@ -1,16 +1,138 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built using **React.js**, **Vite**, and **Tailwind CSS**. This project showcases my skills, services, projects, and contact information in a professional and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Modern and responsive design
+* React Router navigation
+* Hero section with call-to-action buttons
+* About Me section
+* Skills showcase
+* Services section
+* Projects portfolio
+* Testimonials section
+* Contact form
+* Dark mode toggle
+* Framer Motion animations
+* Mobile-friendly layout
+* Fast performance with Vite
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* React Router DOM
+* Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Programming Skills Highlighted
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+* C#
+* ASP.NET
+* C++
+* MySQL
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── ThemeToggle.jsx
+│   ├── Hero.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   └── Testimonials.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   └── Contact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## 🌐 Deployment
+
+This project can be deployed on:
+
+* Vercel
+* Netlify
+* GitHub Pages
+* Firebase Hosting
+
+## 👩‍💻 About Me
+
+I am a Software Engineering student and aspiring Full Stack Developer passionate about creating responsive, user-friendly, and high-performance web applications. My expertise includes React.js, Tailwind CSS, C#, ASP.NET, C++, and database management.
+
+## 📧 Contact
+
+Feel free to connect with me for collaboration, freelance opportunities, or project discussions.
+
+Email: [your-email@example.com](mailto:your-email@example.com)
+
+LinkedIn: https://linkedin.com/in/your-profile
+
+GitHub: https://github.com/your-username
+
+---
+
+© 2026 Muskan Khan. All Rights Reserved.
+
