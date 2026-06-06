@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-indigo-900 text-white flex items-center">
@@ -20,13 +20,19 @@ function Hero() {
           </p>
 
           <div className="mt-8 flex gap-4">
-            <button className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-xl">
+            <Link
+              to="/contact"
+              className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-xl"
+            >
               Hire Me
-            </button>
+            </Link>
 
-            <button className="border border-white px-6 py-3 rounded-xl">
+            <Link
+              to="/projects"
+              className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-slate-900 transition"
+            >
               View Projects
-            </button>
+            </Link>
           </div>
         </motion.div>
 
